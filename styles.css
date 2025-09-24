@@ -1,4 +1,126 @@
-.golden-img {
-    max-width: 50%;
-    height: auto;
+ /* Set the background color for the entire page */
+body {
+    background-color: rgb(252, 220, 177) !important;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+h1 { 
+    text-align: center; 
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-style: Lato, sans-serif;
+}
+.navbar {
+    background-color: #6c1b1b;
+    color: rgb(252, 220, 177);
+}
+
+.image-container {
+    display: flex !important; /* Align images in a row */
+    justify-content: center; /* Add even spacing between images */
+    align-items: center; /* Align images vertically in the center */
+    gap: 30px; /* Add 30px of consistent spacing between images */
+    margin: 20px 0; /* Add some margin above and below the container */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.image-container img {
+    max-width: 30%; /* Ensure each image takes up 30% of the container width */
+    height: auto; /* Maintain the aspect ratio of the images */
+    border-radius: 10px; /* Optional: Add rounded corners to the images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for better aesthetics */
+}
+
+/* Style the contact section */
+#contact {
+    background-color: #6c1b1b;
+    color: rgb(252, 220, 177);
+    padding: 20px;
+                    border-radius: 10px;
+                    max-width: 600px;
+                    margin: 40px auto;
+                    box-shadow: 0 4px 8px rgba(125, 22, 22, 0.2);
+                }
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 70px !important;
+    }
+
+    h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 50px !important;
+    }
+                p {
+                    text-align: center;
+                    margin: 0 auto;
+                    max-width: 1000px;
+                    word-wrap: break-word;
+                    font-size: 20px !important;
+                }
+
+                #skills {
+                    text-align: center;
+                    margin: 0 auto;
+                    max-width: 1000px;
+                    word-wrap: break-word;
+                    font-size: 20px !important;
+                }
+
+                ul, ol {
+    list-style-position: inside; /* Aligns the bullets/numbers with the text */
+    padding-left: 0; /* Removes default padding */
+    text-align: center; /* Ensures the text is left-aligned */
+    margin: 0 auto; /* Centers the list block */
+}
+
+  #contact form div {
+    margin-bottom: 20px; /* Increased spacing between form fields */
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Added a light border for better visibility */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #3f3131;
+    color: rgb(252, 220, 177);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size for better readability */
+    font-weight: bold;
+}
+
+#contact button:hover {
+    background-color: #777;
+}
+
+                #Projects p {
+                    padding-bottom: 40px !important;
+                }
+
+                footer {
+    border-top: 2px solid #6c1b1b; /* Adds a solid border at the top of the footer */
+    padding: 20px; /* Adds padding inside the footer */
+    text-align: center; /* Centers the text in the footer */
+    background-color: rgb(252, 220, 177); /* Optional: Adds a light background color */
+    color: #333; /* Optional: Changes the text color */
 }
